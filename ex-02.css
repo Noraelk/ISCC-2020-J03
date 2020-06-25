@@ -1,0 +1,38 @@
+@font-face{
+    font-family: nasalization-rg;
+    src: url('assetsD03/nasalization-rg.ttf');
+   }
+body {
+    color: darkslategrey;
+    background-color:aliceblue
+    }
+    
+   h1 {font-family: "nasalization-rg";
+    color: #8b0000;
+    background-color:rgb(0, 0, 0, 0.2);
+    font-size: 45px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-align: center;
+   }
+    
+   h2 {font-family: "nasalization-rg";
+    color: rgb(178,34,34);
+    font-size:25px;
+    text-decoration: underline;
+    text-align: center;
+   }
+   p
+   {
+   border-width: 2px; 
+   border-style: solid;
+   border-color: black;
+   }
+   p li
+   {
+   padding: 5%;
+   }
+   span
+   {
+   color: greenyellow;
+   } 
