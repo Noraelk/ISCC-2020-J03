@@ -1,38 +1,70 @@
 @font-face{
-    font-family: nasalization-rg;
+    font-family: "police titres";
     src: url('assetsD03/nasalization-rg.ttf');
-   }
-body {
+    }
+   body {
     color: darkslategrey;
+    padding: 0% 10%;
     background-color:aliceblue
     }
     
-   h1 {font-family: "nasalization-rg";
+   h1 {
     color: #8b0000;
     background-color:rgb(0, 0, 0, 0.2);
+    font-family: "police titres";
     font-size: 45px;
     text-decoration: underline;
     text-decoration-color: black;
     text-align: center;
-   }
+    padding: 10px;
+    margin: 0;
+    }
     
-   h2 {font-family: "nasalization-rg";
+   h2 {
     color: rgb(178,34,34);
+    font-family: "police titres";
     font-size:25px;
     text-decoration: underline;
     text-align: center;
    }
    p
    {
-   border-width: 2px; 
-   border-style: solid;
-   border-color: black;
+    border-width: 2px; 
+    border-style: solid;
+    border-color: black;
    }
    p li
    {
-   padding: 5%;
+    padding: 5%;
+   }
+   .container {
+    display: flex;
+    flex-direction: row;
+   }
+    
+   .left {
+    flex-basis: 33%;
+   }
+    
+   .middle {
+    flex-basis: 33%;
+   }
+    
+   .right {
+    flex-basis: 33%;
+   }
+    #identifie
+   {
+   color: green;
+   }
+   #green
+   {
+   color: darkslategrey
    }
    span
    {
-   color: greenyellow;
-   } 
+   color:greenyellow;
+    
+   }
+   
+   

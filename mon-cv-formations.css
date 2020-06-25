@@ -1,0 +1,31 @@
+body
+{
+    background-color: gray;
+}
+h1
+{
+    text-align: center;
+    background-color:rgb(105, 30, 95);
+}
+body
+{
+    background-color: rgb(165, 165, 165);
+
+}
+footer
+{
+    background-color: grey;
+}
+section
+{
+
+    border-color: gray;
+padding: 5%;
+margin: 5%;
+border-width: 1px;
+border-style: solid;
+}
+footer
+{
+    background-color: gray;
+}
